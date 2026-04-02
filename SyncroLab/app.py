@@ -27,8 +27,8 @@ model = get_working_model()
 
 # --- 2. UI SETUP ---
 st.set_page_config(page_title="Studio SyncroLab", page_icon="♾️")
-st.title("♾️ Studio SyncroLab: Dual-Core AI")
-st.caption("Status: Multi-API Redundancy Active ✅")
+st.title("♾️ Studio SyncroLab: Dual-Core AI || Powered by Gemini")
+st.caption("Solves any Maths and applied Mathematics problems.")
 
 # --- 3. CHAT HISTORY ---
 if "messages" not in st.session_state:
